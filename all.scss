@@ -1,0 +1,120 @@
+
+$p-Date:16px;
+$p-content:18px;
+
+
+.wrap{
+    
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.courseItem{
+    
+    margin-right: 24px;
+    position: relative;
+    height: 556px;
+    img{
+        width: 416px;
+        height: 200px;
+    }
+    .date{
+        font-size: $p-Date;
+        font-weight: 500;
+        line-height: 150%;
+        
+    }
+    h2{
+        font-size: 28px;
+        line-height: 150%;
+        font-weight: 700;
+        color: #000000;
+    }
+    // a{
+    //     text-decoration: none;
+    //     font-size: 23px;
+    //     color: blue;
+    //     &:hover{
+    //         color: rgb(245, 97, 176);
+    //     }
+    // }
+  
+    .button{
+        margin-bottom: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+        position: absolute;
+        bottom: -25px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 150%;
+        color: #4b4b4b;
+        text-decoration: none;
+        border: 1px solid #000000;
+        border-radius: 40px;
+        display: block;
+        gap: 4px;
+        &:active{
+            background-color: rgb(234, 235, 235);
+        }
+        &:hover{
+            color: red;
+        }
+        }
+    span{
+        p{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            display: inline;
+            border: 1px solid #0027d5;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            color: #FFFFFF;
+            background-color: #0027d5;
+            gap: 8px;
+            border-radius: 40px;
+            margin-left: 8px;
+            &:hover{
+                background-color: red;
+                border: 1px solid red;
+            }
+        }
+    }
+}
+.date{
+    font-size: $p-Date;
+    font-weight: 500;
+    line-height: 150%;
+    color: #000000;
+}
+
+.aBlue{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #0027d5;
+    &:hover{
+        color: rgb(245, 97, 176);
+    } 
+}
+.article{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #4b4b4b;
+}
+
+.course1{
+    width: 500px;
+    display: flex;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    justify-content: space-between;
+}
